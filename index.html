@@ -595,7 +595,7 @@
               <ul id="portfolio-flters">
                 <li data-filter="*" class="filter-active">All</li>
                 <li data-filter=".filter-app">App</li>
-                <li data-filter=".filter-card">Card</li>
+                <!-- <li data-filter=".filter-card">Card</li> -->
                 <li data-filter=".filter-web">Web</li>
               </ul>
             </div>
@@ -680,7 +680,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
               <div class="portfolio-wrap">
                 <img
                   src="assets/img/portfolio/portfolio-4.jpg"
@@ -704,9 +704,9 @@
                   ></a>
                 </div>
               </div>
-            </div>
+            </div> -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
                 <img
                   src="assets/img/portfolio/portfolio-5.jpg"
@@ -730,9 +730,9 @@
                   ></a>
                 </div>
               </div>
-            </div>
+            </div> -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
                 <img
                   src="assets/img/portfolio/portfolio-6.jpg"
@@ -756,9 +756,9 @@
                   ></a>
                 </div>
               </div>
-            </div>
+            </div> -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
               <div class="portfolio-wrap">
                 <img
                   src="assets/img/portfolio/portfolio-7.jpg"
@@ -782,7 +782,7 @@
                   ></a>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
               <div class="portfolio-wrap">
@@ -813,7 +813,7 @@
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/portfolio-9.jpg"
+                  src="assets/img/portfolio/portfolio-4.jpg"
                   class="img-fluid"
                   alt=""
                 />
@@ -904,7 +904,7 @@
                 <h3>Developer</h3>
                 <h4><sup>$</sup>29<span> / month</span></h4>
                 <ul>
-                  <li>Multi domain</li>
+                  <li>Domain</li>
                   <li>Web hosting</li>
                   <li>Multiple email client</li>
                   <li>2 GB space</li>
@@ -926,7 +926,7 @@
                 <h3>Ultimate</h3>
                 <h4><sup>$</sup>49<span> / month</span></h4>
                 <ul>
-                  <li>Multi domain</li>
+                  <li>Domain</li>
                   <li>Web hosting</li>
                   <li>Multiple email client</li>
                   <li>E-commerce hosting</li>
@@ -1088,8 +1088,9 @@
 
             <div class="col-lg-6">
               <form
-                action="forms/contact.php"
+                action="mail_handler.php"
                 method="post"
+                name="form"
                 role="form"
                 class="php-email-form"
               >
@@ -1150,7 +1151,7 @@
                   </div>
                 </div>
                 <div class="text-center">
-                  <button type="submit">Send Message</button>
+                  <button type="submit" name="submit" value="Send">Send Message</button>
                 </div>
               </form>
             </div>
